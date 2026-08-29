@@ -1,107 +1,213 @@
-# 🔐 Password Generator
+# 🐍 Python Developer Internship Tasks
 
-## 📌 Project Description
+## 💻 Auspify Technologies — Python Developer Internship
 
-The Password Generator is a Python-based application that generates secure and random passwords based on the user's requirements.
+A collection of Python projects completed as part of the **Python Developer Internship** at **Auspify Technologies**.
 
-The application allows the user to specify the desired password length and generates a password containing a combination of letters, numbers, and special characters.
+The projects demonstrate practical Python programming skills, including command-line applications, GUI development, API integration, user input handling, error handling, and problem-solving.
 
-## 🎯 Features
+---
 
-* 🔐 Generate random passwords
-* 🔢 Support different password lengths
-* 🔤 Include uppercase and lowercase letters
-* 🔢 Include numbers
-* 🔣 Include special characters
-* 🖥️ Simple command-line interface
-* ⚡ Fast password generation
+## 📋 Completed Tasks
 
-## 🛠️ Technologies Used
+| Task   | Project                     | Description                                                  | Status      |
+| ------ | --------------------------- | ------------------------------------------------------------ | ----------- |
+| Task 1 | 🔐 Password Generator       | Generates random and secure passwords                        | ✅ Completed |
+| Task 2 | ✅ To-Do List                | Manages daily tasks through a command-line interface         | ✅ Completed |
+| Task 3 | 🧮 Calculator with GUI      | Performs arithmetic calculations using a graphical interface | ✅ Completed |
+| Task 4 | 🌦️ Weather Information App | Retrieves current weather information using APIs             | ✅ Completed |
 
-| Technology    | Purpose                    |
-| ------------- | -------------------------- |
-| Python        | Application development    |
-| Random Module | Random character selection |
-| String Module | Character collections      |
+---
 
-## 📂 Project Structure
+# 🔐 Task 1 — Password Generator
 
-```text
-Password_Generator/
-│
-├── password_generator.py
-├── screenshot.png
-└── README.md
-```
+### 📌 Description
 
-## ⚙️ How It Works
+A Python application that generates random passwords using letters, numbers, and special characters.
 
-```text
-User enters password length
-          ↓
-Character sets are created
-          ↓
-Random characters are selected
-          ↓
-Password is generated
-          ↓
-Generated password is displayed
-```
+### 🎯 Features
 
-## ▶️ How to Run
+* Generate random passwords
+* User-defined password length
+* Uppercase and lowercase letters
+* Numbers
+* Special characters
 
-### 1. Make sure Python is installed
+### 🛠️ Technologies
 
-Check Python using:
+* Python
+* Random module
+* String module
 
-```bash
-python --version
-```
-
-### 2. Run the program
+### ▶️ Run
 
 ```bash
 python password_generator.py
 ```
 
-### 3. Enter the required password length
+---
 
-The program will generate a random password and display it in the terminal.
+# ✅ Task 2 — To-Do List
 
-## 📸 Output
+### 📌 Description
 
-A screenshot of the program output is included in:
+A command-line application for managing daily tasks.
 
-`screenshot.png`
+### 🎯 Features
 
-## 📚 Concepts Practiced
+* Add tasks
+* View tasks
+* Mark tasks as completed
+* Delete tasks
+* Interactive menu
 
-* Python variables
-* User input
-* String manipulation
-* Lists and characters
-* Random selection
+### 🛠️ Technologies
+
+* Python
+* Lists
+* Functions
+* Loops
+* Conditional statements
+
+### ▶️ Run
+
+```bash
+python todo_list.py
+```
+
+---
+
+# 🧮 Task 3 — Calculator with GUI
+
+### 📌 Description
+
+A desktop calculator application developed using Python and Tkinter.
+
+### 🎯 Features
+
+* Addition
+* Subtraction
+* Multiplication
+* Division
+* Clear button
+* Graphical User Interface
+
+### 🛠️ Technologies
+
+* Python
+* Tkinter
+* Functions
+* Event handling
+
+### ▶️ Run
+
+```bash
+python calculator.py
+```
+
+---
+
+# 🌦️ Task 4 — Weather Information App
+
+### 📌 Description
+
+A Python application that retrieves current weather information for a selected city using the Open-Meteo API.
+
+### 🎯 Features
+
+* Search weather by city
+* Get latitude and longitude
+* Display temperature
+* Display wind speed
+* Display weather condition
+* Handle invalid cities
+* Handle API connection errors
+
+### 🛠️ Technologies
+
+* Python
+* Requests
+* REST APIs
+* JSON
+* Open-Meteo API
+
+### ▶️ Run
+
+```bash
+python weather_app.py
+```
+
+---
+
+# 📂 Repository Structure
+
+```text
+Python-Developer-Internship/
+│
+├── README.md
+│
+├── Password_Generator/
+│   ├── password_generator.py
+│   └── screenshot.png
+│
+├── To_Do_List/
+│   ├── todo_list.py
+│   └── screenshot.png
+│
+├── Calculator_GUI/
+│   ├── calculator.py
+│   └── screenshot.png
+│
+└── Weather_App/
+    ├── weather_app.py
+    └── weather_app_output.png
+```
+
+---
+
+# 📚 Skills Practiced
+
+Through these projects, the following skills were practiced:
+
+* Python programming
+* Variables and data types
+* User input and output
+* Conditional statements
 * Loops
 * Functions
-* Command-line applications
+* Lists and dictionaries
+* Exception handling
+* Random data generation
+* GUI development with Tkinter
+* API integration
+* JSON data processing
+* Problem solving
+* Command-line application development
 
-## 🎓 Learning Outcome
+---
 
-Through this project, I learned how to use Python's built-in modules to generate random data and developed a better understanding of functions, loops, user input, and string manipulation.
+# 🎓 Learning Outcome
 
-## 👨‍💻 Student Project
+These internship tasks provided practical experience in Python development and helped strengthen programming fundamentals through the development of multiple real-world applications.
 
-**Project:** Password Generator
-**Language:** Python
-**Type:** Python Developer Internship Task
+The projects progressed from basic Python programming to GUI development and API-based applications.
+
+---
+
+## 👨‍💻 Student Information
+
+**Internship:** Python Developer Internship
+**Organization:** Auspify Technologies
+**Completed Tasks:** 4
 
 ---
 
 <p align="center">
-  🔐 <b>Password Generator</b> 🔐
+  🐍 <b>Python Developer Internship</b> 🐍
 </p>
 
 <p align="center">
   Built with Python
 </p>
+
 
